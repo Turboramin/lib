@@ -86,6 +86,7 @@ async function NewCourseSelected() {
 }    
 
 function QuizLeft() {
+    console.log("Test");
 	console.log("QuizLeft")
 	GlobalQuizList.Move(-1)
 	UpdateButtons() 
@@ -239,6 +240,3 @@ async function NewVideoSelected() {
 		btn.dispatchEvent(new CustomEvent((nrquestions >0 )?"show":"hide"));
     
 }
-
-
-console.log("Test");
