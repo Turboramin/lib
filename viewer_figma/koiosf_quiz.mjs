@@ -129,14 +129,14 @@ async function CheckAnwer() {
     btnlist.push(getElement("answerd","scr_quiz"))  // note order, d after b
     btnlist.push(getElement("answerc","scr_quiz"))
     
-    
+    /*
     for (var i=0;i<10;i++) {    
         btnlist[(i )  % btnlist.length].dispatchEvent(new CustomEvent("displaydisabled"));
         btnlist[(i+1) % btnlist.length].dispatchEvent(new CustomEvent("displaydefault"));
         btnlist[(i+2) % btnlist.length].dispatchEvent(new CustomEvent("displayactive"));
         //window.getComputedStyle(btnlist[nr])
         await sleep(50);
-    }
+    }*/
     
     var question=GlobalQuizList.GetCurrentQuestion();
     console.log(`In CheckAnwer`);
