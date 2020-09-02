@@ -2,8 +2,8 @@
 
 
 import {loadScriptAsync,DomList,LinkToggleButton,subscribe,getElement,MonitorVisible,ForAllElements,setElementVal,publish,GetJson,LinkClickButton,LinkVisible,GetCSVIPFS,sleep} from '../lib/koiosf_util.mjs';
-import {GetCourseInfo,GlobalCourseList} from './koiosf_course.mjs';
-import {GlobalLessonList} from './koiosf_lessons.mjs';
+//import {GetCourseInfo,GlobalCourseList} from './koiosf_course.mjs';
+//import {GlobalLessonList} from './koiosf_lessons.mjs';
 import {GetToggleState} from '../genhtml/startgen.mjs'
 
 
