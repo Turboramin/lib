@@ -76,7 +76,7 @@ export var GlobalQuizList;
 
 async function NewCourseSelected() {   
     console.log("In NewCourseSelected");
-    var quizcid=await GetCourseInfo("quizinfo") 
+    //var quizcid=await GetCourseInfo("quizinfo")
     console.log("quizcid");
     console.log(quizcid);
     quizcid = "QmXsnYGKXxrAKiZKQ6AHtiwJq19xQoav9ea5Fs6tmB7xtU"; //TEMP
