@@ -53,8 +53,8 @@ class QuizList {
 	}
 	
     GetCurrentQuestion() {
-       if (this.start >= this.subset.length) 
-           return undefined;       
+       //if (this.start >= this.subset.length)
+       //    return undefined;
 	   console.log(`In GetCurrent ${ this.start} ${this.subset[this.start]}`)
        return this.subset[this.start]
     }
