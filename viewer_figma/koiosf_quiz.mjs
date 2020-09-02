@@ -16,6 +16,8 @@ function init() {
 	subscribe("loadvideo",NewVideoSelected);
 	LinkVisible("scr_quiz" ,ScrQuizMadeVisible)   
 	LinkClickButton("checkanswer",CheckAnwer)
+
+    NewCourseSelected(); //TEMP
 }	
 
 class QuizList {    
@@ -77,7 +79,8 @@ async function NewCourseSelected() {
     var quizcid=await GetCourseInfo("quizinfo") 
     console.log("quizcid");
     console.log(quizcid);   
-    if (quizcid) {    
+    if (quizcid) {
+        quizcid = "QmXsnYGKXxrAKiZKQ6AHtiwJq19xQoav9ea5Fs6tmB7xtU"; //TEMP
         GlobalQuizList=new QuizList(quizcid)   
  
         var List=await GlobalQuizList.GetList();
