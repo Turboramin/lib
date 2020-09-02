@@ -17,7 +17,7 @@ function init() {
 	LinkVisible("scr_quiz" ,ScrQuizMadeVisible)   
 	LinkClickButton("checkanswer",CheckAnwer)
 
-    NewCourseSelected(); //TEMP
+    await NewCourseSelected(); //TEMP
     ScrQuizMadeVisible(); //TEMP
 }	
 
