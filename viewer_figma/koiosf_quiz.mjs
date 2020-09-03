@@ -9,14 +9,14 @@ import {GetToggleState} from '../genhtml/startgen.mjs'
 
 window.addEventListener('DOMContentLoaded', init);  // load  
 
-function init() {
+async function init() {
 	subscribe("setcurrentcourse",NewCourseSelected)
 	LinkClickButton("quizleft",QuizLeft);
 	LinkClickButton("quizright",QuizRight);
 	subscribe("loadvideo",NewVideoSelected);
 	LinkVisible("scr_quiz" ,ScrQuizMadeVisible)   
 	LinkClickButton("checkanswer",CheckAnwer)
-
+    
     NewCourseSelected(); //TEMP
     var nrquestions=await GlobalQuizList.SetMatch("1.1"); //TEMP
     ScrQuizMadeVisible(); //TEMP
