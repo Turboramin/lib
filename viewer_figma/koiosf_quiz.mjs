@@ -18,6 +18,7 @@ function init() {
 	LinkClickButton("checkanswer",CheckAnwer)
 
     NewCourseSelected(); //TEMP
+    var nrquestions=await GlobalQuizList.SetMatch("1.1"); //TEMP
     ScrQuizMadeVisible(); //TEMP
 }	
 
